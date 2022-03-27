@@ -1,0 +1,104 @@
+{
+  "tests": [
+    {
+      "name": "1",
+      "setup": "make soal-02",
+      "run": "./soal-02",
+      "input": "13288012\r\n54\r\n13288043\r\n75\r\n13288054\r\n78\r\n99999999",
+      "output": "13288054, 78\r\n13288043, 75\r\n13288012, 54",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "2",
+      "setup": "make soal-02",
+      "run": "./soal-02",
+      "input": "13288001\r\n87\r\n13288002\r\n98\r\n13288003\r\n60\r\n13288004\r\n50\r\n13288005\r\n99\r\n99999999",
+      "output": "13288005, 99\r\n13288002, 98\r\n13288001, 87\r\n13288003, 60\r\n13288004, 50",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "3",
+      "setup": "make soal-02",
+      "run": "./soal-02",
+      "input": "13288021\r\n65\r\n13288034\r\n78\r\n13288065\r\n90\r\n13288012\r\n50\r\n13288098\r\n100\r\n99999999",
+      "output": "13288098, 100\r\n13288065, 90\r\n13288034, 78\r\n13288021, 65\r\n13288012, 50",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "4",
+      "setup": "make soal-02",
+      "run": "./soal-02",
+      "input": "13288001\r\n87\r\n13288002\r\n98\r\n13288004\r\n50\r\n13288005\r\n99\r\n99999999",
+      "output": "13288005, 99\r\n13288002, 98\r\n13288001, 87\r\n13288004, 50",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "5",
+      "setup": "make soal-02",
+      "run": "./soal-02",
+      "input": "13288010\r\n87\r\n13288012\r\n98\r\n13288013\r\n61\r\n13288014\r\n51\r\n99999999",
+      "output": "13288012, 98\r\n13288010, 87\r\n13288013, 61\r\n13288014, 51",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "6",
+      "setup": "make soal-02",
+      "run": "./soal-02",
+      "input": "13218200\r\n45\r\n13218210\r\n56\r\n13218220\r\n67\r\n13218230\r\n78\r\n13218240\r\n89\r\n13218250\r\n90\r\n13218260\r\n87\r\n13218270\r\n65\r\n99999999",
+      "output": "13218250, 90\r\n13218240, 89\r\n13218260, 87\r\n13218230, 78\r\n13218220, 67\r\n13218270, 65\r\n13218210, 56\r\n13218200, 45",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "7",
+      "setup": "make soal-02",
+      "run": "./soal-02",
+      "input": "13218100\r\n11\r\n13218110\r\n22\r\n13218120\r\n33\r\n13218130\r\n44\r\n13218140\r\n55\r\n13218150\r\n66\r\n13218160\r\n77\r\n13218170\r\n88\r\n13218180\r\n99\r\n13218190\r\n89\r\n99999999",
+      "output": "13218180, 99\r\n13218190, 89\r\n13218170, 88\r\n13218160, 77\r\n13218150, 66\r\n13218140, 55\r\n13218130, 44\r\n13218120, 33\r\n13218110, 22\r\n13218100, 11",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "8",
+      "setup": "make soal-02",
+      "run": "./soal-02",
+      "input": "13288031\r\n57\r\n13288032\r\n73\r\n13288033\r\n96\r\n13288034\r\n81\r\n13288035\r\n63\r\n99999999",
+      "output": "13288033, 96\r\n13288034, 81\r\n13288032, 73\r\n13288035, 63\r\n13288031, 57",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "9",
+      "setup": "make soal-02",
+      "run": "./soal-02",
+      "input": "13299303\r\n0\r\n13218005\r\n100\r\n99999999",
+      "output": "13218005, 100\r\n13299303, 0",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "10",
+      "setup": "make soal-02",
+      "run": "./soal-02",
+      "input": "12359243\r\n23\r\n13299303\r\n0\r\n13218005\r\n100\r\n99999999",
+      "output": "13218005, 100\r\n12359243, 23\r\n13299303, 0",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    }
+  ]
+}
